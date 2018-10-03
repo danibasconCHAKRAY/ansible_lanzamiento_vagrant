@@ -1,0 +1,9 @@
+---
+- name : middleware | admin | users
+
+  hosts: all 
+  become: yes
+  roles:
+          #- role_wso2apim
+          - wso2apim-2.5.0
+          - ansible-role-java  
