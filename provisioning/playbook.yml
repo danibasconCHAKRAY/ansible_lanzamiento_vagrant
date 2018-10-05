@@ -5,4 +5,4 @@
   become: yes
   roles:
           - ansible-wso2apim
-          - ansible-role-java  
+
