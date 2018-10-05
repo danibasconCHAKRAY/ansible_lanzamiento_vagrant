@@ -5,3 +5,4 @@
   become: yes
   roles:
           - ansible-wso2apim
+
