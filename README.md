@@ -1,14 +1,14 @@
 Running ansible playbook
 ------------------------
+1. Add to the playbook.yml the roles.
 
-1. Run vagrant
-	- $ Vagrant up
+2. Add to the roles folder, the roles that we want.
 
-2. Get ip and add in localhost.ini
+3. Define the variables on all.yml file in group_vars folder.
 
-3. Running ansible-playbook
-	- $ cd provisioning
-	- $ ansible-playbook -i localhost.ini playbook.yml
+4. Run vagrant
+	- $ Vagrant up --provision
+
 
 Requirements
 ------------

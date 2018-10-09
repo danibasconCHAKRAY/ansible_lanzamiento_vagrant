@@ -12,6 +12,7 @@ then
 fi
 
 cd /Vagrantfiles/provisioning
+#cd provisioning
 #move ansible inventory hosts file into  default location
 cp localhost.ini /etc/ansible/hosts
 #undo executable bits on synced files since ansible gets grumpy
