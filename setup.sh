@@ -17,7 +17,7 @@ cd /Vagrantfiles/provisioning
 cp localhost.ini /etc/ansible/hosts
 #undo executable bits on synced files since ansible gets grumpy
 chmod -X /etc/ansible/hosts
-ansible-link playbook.yml 
+#ansible-link playbook.yml 
 ansible-playbook playbook.yml -vvv
 
 # vagrant ssh -t apim -- /usr/sbin/ip a | grep eth0 | egrep -o '([0-9]{1,3}[\.]){3}'
